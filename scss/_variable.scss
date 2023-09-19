@@ -2,6 +2,9 @@ html {
 	--color1: pink;
 	--color2: lightblue;
 	--color3: orange;
+	font-size: 20px;
 }
 //1rem : 16px (root element)
 //보통 폰트 등을 rem으로 설정
+//기본 폰트 사이즈 값은 16px
+//폰트사이즈로 기본 픽셀 단위를 변경하면 1rem의 단위도 변경된 픽셀 단위로 변경된다.
