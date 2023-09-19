@@ -37,6 +37,7 @@ body section h1 {
 }
 body section p {
   margin-bottom: 30px;
+  font-family: arial;
 }
 body section a {
   display: inline-block;
