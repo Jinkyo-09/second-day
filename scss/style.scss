@@ -29,3 +29,39 @@ body {
 		}
 	}
 }
+
+//데스크탑 레이아웃을 모바일 버전으로 반응형 처리할 때 주의점
+//모바일 디바이스는 폭이 매우 다양하기 때문에 width 값은 퍼센테이지로 처리
+@media screen and (max-width: 999px) {
+	body {
+		background: lightblue;
+
+		section {
+			width: 80%;
+
+			h1 {
+				color: lightblue;
+			}
+
+			a {
+				background: lightblue;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 599px) {
+	body {
+		background: orange;
+
+		section {
+			h1 {
+				color: orange;
+			}
+
+			a {
+				background: orange;
+			}
+		}
+	}
+}
